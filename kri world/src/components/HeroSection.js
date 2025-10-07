@@ -52,7 +52,7 @@ export default function HeroSection() {
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 1, delay: 0.2 }}
-            className="text-gray-700 text-lg sm:text-xl leading-relaxed max-w-lg mb-10"
+            className="text-gray-700 text-lg sm:text-2xl leading-relaxed max-w-lg mb-10"
           >
             At Kriworld, we turn your ideas into reality with cutting-edge
             technology. From web and app development to digital marketing and
@@ -112,3 +112,4 @@ export default function HeroSection() {
     </section>
   );
 }
+
