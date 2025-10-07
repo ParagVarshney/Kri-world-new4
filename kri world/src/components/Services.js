@@ -77,10 +77,10 @@ const Services = () => {
             </div>
 
             {/* Title */}
-            <h3 className="text-xl font-semibold mb-3">{service.title}</h3>
+            <h3 className="text-2xl font-semibold mb-3">{service.title}</h3>
 
             {/* Description */}
-            <p className="text-lg mb-4 flex-grow">{service.description}</p>
+            <p className="text-2xl mb-4 flex-grow">{service.description}</p>
 
             {/* Features Heading */}
             <h4 className="text-lg font-semibold mb-2">Features:</h4>
@@ -99,3 +99,4 @@ const Services = () => {
 };
 
 export default Services;
+
